@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin,Cyrillic");
+
 article,
 aside,
 details,
@@ -207,9 +209,9 @@ textarea {
 }
 body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
+	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 22px;
 	color: #333;
 	background-color: #fff;
 }
@@ -7672,4 +7674,14 @@ body.modal-open {
 }
 li {
 	word-wrap: break-word;
+}
+
+.article-info {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.article-info dt,
+.article-info dd {
+	line-height: 19px;
 }
