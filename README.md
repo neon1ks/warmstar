@@ -16,3 +16,4 @@ Warmstar является форком темы Protostar. Основная це
 
 ## Оформление
 
+<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
