@@ -568,49 +568,75 @@ em {
 cite {
 	font-style: normal;
 }
-.muted {
-	color: #999;
+.muted,
+.text-muted {
+  color: #98978b;
 }
 a.muted:hover,
-a.muted:focus {
-	color: #808080;
+a.muted:focus,
+a.text-muted:hover,
+a.text-muted:focus {
+  color: #808080;
+}
+.text-primary {
+  color: #325d88;
+}
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #244363;
 }
 .text-warning {
-	color: #c09853;
+/*color: #c09853;*/
+  color: #f47c3c;
 }
 a.text-warning:hover,
 a.text-warning:focus {
-	color: #a47e3c;
+/*color: #a47e3c;*/
+  color: #ef5c0e;
 }
 .text-error {
-	color: #b94a48;
+/*color: #b94a48;*/
+  color: #d9534f;
 }
 a.text-error:hover,
 a.text-error:focus {
-	color: #953b39;
+/*color: #953b39;*/
+  color: #c9302c;
+}
+
+.text-danger {
+  color: #d9534f;
+}
+a.text-danger:hover,
+a.text-danger:focus {
+  color: #c9302c;
 }
 .text-info {
-	color: #3a87ad;
+/*color: #3a87ad;*/
+  color: #29abe0;
 }
 a.text-info:hover,
 a.text-info:focus {
-	color: #2d6987;
+/*color: #2d6987;*/
+  color: #1b8dbb;
 }
 .text-success {
-	color: #468847;
+/*color: #468847;*/
+  color: #93c54b;
 }
 a.text-success:hover,
 a.text-success:focus {
-	color: #356635;
+/*color: #356635;*/
+  color: #79a736;
 }
 .text-left {
-	text-align: left;
+  text-align: left;
 }
 .text-right {
-	text-align: right;
+  text-align: right;
 }
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 h1,
 h2,
