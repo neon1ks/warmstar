@@ -206,12 +206,12 @@ textarea {
 	box-sizing: border-box;
 }
 body {
-	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
-	color: #333;
-	background-color: #fff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3e3f3a;
+  background-color: #fff;
 }
 a {
 	color: #005e8d;
@@ -548,7 +548,7 @@ a:focus {
 	clear: both;
 }
 p {
-	margin: 0 0 9px;
+  margin: 0 0 10px;
 }
 .lead {
 	margin-bottom: 18px;
@@ -653,7 +653,7 @@ h4 {
 	font-size: 16.25px;
 }
 h5 {
-	font-size: 13px;
+  font-size: 14px;
 }
 h6 {
 	font-size: 11.05px;
@@ -665,10 +665,10 @@ h2 small {
 	font-size: 16.25px;
 }
 h3 small {
-	font-size: 13px;
+  font-size: 14px;
 }
 h4 small {
-	font-size: 13px;
+  font-size: 14px;
 }
 .page-header {
 	padding-bottom: 8px;
@@ -884,9 +884,9 @@ input,
 button,
 select,
 textarea {
-	font-size: 13px;
-	font-weight: normal;
-	line-height: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
 }
 input,
 button,
@@ -916,11 +916,11 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
 	display: inline-block;
-	height: 18px;
+  height: 20px;
 	padding: 4px 6px;
 	margin-bottom: 9px;
-	font-size: 13px;
-	line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
 	color: #555;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -1422,7 +1422,7 @@ select:focus:invalid:focus {
 .input-prepend .uneditable-input,
 .input-prepend .dropdown-menu,
 .input-prepend .popover {
-	font-size: 13px;
+  font-size: 14px;
 }
 .input-append input,
 .input-append select,
@@ -1450,12 +1450,12 @@ select:focus:invalid:focus {
 .input-prepend .add-on {
 	display: inline-block;
 	width: auto;
-	height: 18px;
+  height: 20px;
 	min-width: 16px;
 	padding: 4px 5px;
-	font-size: 13px;
+  font-size: 14px;
 	font-weight: normal;
-	line-height: 18px;
+  line-height: 20px;
 	text-align: center;
 	text-shadow: 0 1px 0 #fff;
 	background-color: #eee;
@@ -2243,8 +2243,8 @@ button.close {
 	*zoom: 1;
 	padding: 4px 12px;
 	margin-bottom: 0;
-	font-size: 13px;
-	line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
@@ -2645,7 +2645,7 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-	font-size: 13px;
+  font-size: 14px;
 }
 .btn-group > .btn-mini {
 	font-size: 9.75px;
@@ -3359,7 +3359,7 @@ input[type="submit"].btn.btn-mini {
 	margin-bottom: 0;
 	padding: 4px 14px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+  font-size: 14px;
 	font-weight: normal;
 	line-height: 1;
 	-webkit-border-radius: 15px;
@@ -7213,8 +7213,8 @@ h4 {
 	line-height: 16px;
 }
 h5 {
-	font-size: 13px;
-	line-height: 15px;
+  font-size: 14px;
+  line-height: 20px;
 }
 h6 {
 	font-size: 12px;
@@ -7266,7 +7266,7 @@ p {
 	padding: 15px 0;
 }
 .breadcrumb {
-	margin: 10px 0;
+  margin: 24px 0 10px 0;
 }
 .breadcrumb > li,
 .breadcrumb > .active {
@@ -7354,9 +7354,9 @@ figcaption {
 	display: block;
 	padding: 3px 20px;
 	clear: both;
-	font-size: 13px;
-	font-weight: normal;
-	line-height: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
 	color: #333;
 	white-space: nowrap;
 }
@@ -7672,4 +7672,44 @@ body.modal-open {
 }
 li {
 	word-wrap: break-word;
+}
+
+.item-page p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.item-page p small {
+  font-size: 14px;
+}
+
+.item-page .article-info {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.item-page h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 35.2px;
+  margin-bottom: 8px;
+  margin-top: 48px;
+}
+
+.item-page h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.item-page h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26.4px;
+  margin-bottom: 16px;
+  margin-top: 24px;
 }
