@@ -7143,11 +7143,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-body.site {
-	border-top: 3px solid #0088cc;
-	padding: 20px;
-	background-color: #f4f6f7;
-}
 body.site.fluid {
 	background-color: #ffffff;
 }
