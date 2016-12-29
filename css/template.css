@@ -7687,6 +7687,7 @@ li {
 	word-wrap: break-word;
 }
 
+.blog p,
 .item-page p {
   font-size: 16px;
   line-height: 24px;
@@ -7694,15 +7695,18 @@ li {
   margin-top: 0px;
 }
 
+.blog p small,
 .item-page p small {
   font-size: 14px;
 }
 
+.blog .article-info,
 .item-page .article-info {
   font-size: 14px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
+.blog h2,
 .item-page h2 {
   font-size: 32px;
   font-weight: 500;
@@ -7711,6 +7715,7 @@ li {
   margin-top: 48px;
 }
 
+.blog h3,
 .item-page h3 {
   font-size: 28px;
   font-weight: 500;
@@ -7719,6 +7724,7 @@ li {
   margin-top: 32px;
 }
 
+.blog h4,
 .item-page h4 {
   font-size: 24px;
   font-weight: 500;
