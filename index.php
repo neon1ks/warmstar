@@ -56,29 +56,6 @@ if ($this->params->get('googleFont'))
 	}");
 }
 
-// Template color
-if ($this->params->get('templateColor'))
-{
-	$doc->addStyleDeclaration("
-	body.site {
-		border-top: 3px solid " . $this->params->get('templateColor') . ";
-		background-color: " . $this->params->get('templateBackgroundColor') . ";
-	}
-	a {
-		color: " . $this->params->get('templateColor') . ";
-	}
-	.nav-list > .active > a,
-	.nav-list > .active > a:hover,
-	.dropdown-menu li > a:hover,
-	.dropdown-menu .active > a,
-	.dropdown-menu .active > a:hover,
-	.nav-pills > .active > a,
-	.nav-pills > .active > a:hover,
-	.btn-primary {
-		background: " . $this->params->get('templateColor') . ";
-	}");
-}
-
 // Check for a custom CSS file
 $userCss = JPATH_SITE . '/templates/' . $this->template . '/css/user.css';
 
