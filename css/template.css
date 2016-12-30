@@ -4172,14 +4172,6 @@ fieldset[disabled] .btn-link:focus {
   list-style: none;
   text-align: center;
 }
-/*
-.pager {
-  font-size: 12px;
-  line-height: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-*/
 .pager:before,
 .pager:after {
   display: table;
