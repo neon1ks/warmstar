@@ -3146,6 +3146,12 @@ fieldset[disabled] .btn-link:focus {
 .nav-list > li > a {
 	padding: 3px 15px;
 }
+.nav-list > li > ul > li > a {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	position: relative;
+	display: block;
+}
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
@@ -6083,7 +6089,7 @@ a.badge:focus {
 	}
 }
 .small {
-	font-size: 11px;
+  font-size: 12px;
 }
 iframe,
 svg {
@@ -7613,8 +7619,9 @@ figcaption {
 	caption-side: bottom;
 }
 #aside .nav .nav-child {
-	border-left: 2px solid #ddd;
-	padding-left: 5px;
+	/*border-left: 2px solid #ddd;
+	padding-left: 5px;*/ /* study */
+  padding-left: 15px;
 }
 .navigation .nav-child {
 	position: absolute;
@@ -8089,4 +8096,12 @@ div[class^=leading] {
     color: #cccccc;
     background-color: transparent;
   }
+}
+
+.well > .category-module > li > a,
+.well > .mostread > li > a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: relative;
+  display: block;
 }
