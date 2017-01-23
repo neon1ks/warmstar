@@ -3113,11 +3113,33 @@ fieldset[disabled] .btn-link:focus {
   text-decoration: none;
   background-color: #f8f5f0;
 }
+.nav > li.disabled > a {
+  color: #dfd7ca;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #dfd7ca;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #f8f5f0;
+  border-color: #dfd7ca;
+}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
 .nav > li > a > img {
-	max-width: none;
+  max-width: none;
 }
 .nav > .pull-right {
-	float: right;
+  float: right;
 }
 .nav-header {
 	display: block;
