@@ -207,11 +207,13 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
+  font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #3e3f3a;
   background-color: #fff;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: #93c54b;
@@ -5641,7 +5643,7 @@ a.badge:focus {
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    width: 1170px;
+    width: 1080px;
   }
   .span12 {
     width: 1170px;
@@ -8025,10 +8027,15 @@ li {
 
 .blog p,
 .item-page p {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 11px;
   margin-top: 0px;
+}
+
+.blog li,
+.item-page li {
+  line-height: 23px;
 }
 
 .blog p small,
